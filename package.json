@@ -4,18 +4,50 @@
   "description": "Zero-dependency structured logger for Node.js — ships logs to Blorq or any HTTP endpoint. Works with Express, Next.js, Fastify, Koa, NestJS, and plain Node.",
   "main": "src/index.js",
   "exports": {
-    ".":          "./src/index.js",
-    "./express":  "./src/adapters/express.js",
-    "./next":     "./src/adapters/next.js",
-    "./fastify":  "./src/adapters/fastify.js",
-    "./koa":      "./src/adapters/koa.js"
+    ".": "./src/index.js",
+    "./express": "./src/adapters/express.js",
+    "./next": "./src/adapters/next.js",
+    "./fastify": "./src/adapters/fastify.js",
+    "./koa": "./src/adapters/koa.js"
   },
   "types": "src/index.d.ts",
   "scripts": {
     "test": "node tests/basic.test.js"
   },
-  "keywords": ["logger","logging","blorq","structured","observability","express","nextjs","fastify","koa"],
-  "license": "MIT",
+  "keywords": [
+    "logger",
+    "logging",
+    "nodejs",
+    "node",
+    "structured-logging",
+    "json-logger",
+    "http-logger",
+    "request-logger",
+    "api-logger",
+    "server-logger",
+    "backend-logger",
+    "observability",
+    "monitoring",
+    "log-management",
+    "log-aggregation",
+    "zero-dependency",
+    "lightweight",
+    "express",
+    "express-middleware",
+    "nestjs",
+    "nextjs",
+    "nextjs-middleware",
+    "fastify",
+    "koa",
+    "middleware",
+    "typescript",
+    "developer-tools",
+    "debugging",
+    "performance",
+    "production-ready"
+  ],
   "dependencies": {},
-  "engines": { "node": ">=18.0.0" }
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }

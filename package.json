@@ -1,6 +1,6 @@
 {
   "name": "blorq-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Zero-dependency structured logger for Node.js — ships logs to Blorq or any HTTP endpoint. Works with Express, Next.js, Fastify, Koa, NestJS, and plain Node.",
   "main": "src/index.js",
   "exports": {
